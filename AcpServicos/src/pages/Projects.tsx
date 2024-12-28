@@ -1,12 +1,12 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const projectImages = [
-  '../../public/images/imagem1.jpeg',
-  '../../public/images/imagem2.jpeg',
-  '../../public/images/imagem3.jpeg',
-  '../../public/images/imagem4.jpeg',
-  '../../public/images/imagem5.jpeg',
-  '../../public/images/imagem6.jpeg',
+  './public/images/imagem1.jpeg',
+  './public/images/imagem2.jpeg',
+  './public/images/imagem3.jpeg',
+  './public/images/imagem4.jpeg',
+  './public/images/imagem5.jpeg',
+  './public/images/imagem6.jpeg',
 ];
 
 function Projects() {

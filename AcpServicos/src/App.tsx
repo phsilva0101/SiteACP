@@ -14,7 +14,7 @@ function App() {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              src="../../public/images/logo.jpeg" // Caminho da logo
+              src="./images/logo.jpeg" // Caminho da logo
               alt="ACP Serviços"
               style={{ width: '80px', height: 'auto' }} // Ajuste o tamanho conforme necessário
             />
