@@ -10,13 +10,17 @@ import WhatsAppIcon from './components/WhatsAppIcon';
 function App() {
   return (
     <>
-      <Navbar bg="light" expand="lg" fixed="top">
-        <Container>
+      <Navbar
+        style={{ backgroundColor: 'var(--primary-orange)' }}
+        expand="lg"
+        fixed="top"
+      >
+        <Container fluid>
           <Navbar.Brand href="#home">
             <img
-              src="./images/logo.jpeg" // Caminho da logo
+              src="/images/logo.jpeg" // Caminho da logo
               alt="ACP Serviços"
-              style={{ width: '80px', height: 'auto' }} // Ajuste o tamanho conforme necessário
+              style={{ width: '150px', height: '100px' }}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

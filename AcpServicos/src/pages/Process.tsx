@@ -22,15 +22,41 @@ const processes = [
 
 function Process() {
   return (
-    <section id="process" className="py-5 bg-light">
+    <section
+      id="process"
+      className="py-5"
+      style={{
+        backgroundColor: 'var(--background-black)',
+        color: 'var(--text-white)',
+      }}
+    >
       <Container fluid>
-        <h2 className="text-center mb-4">Como Trabalhamos</h2>
+        <h2
+          className="text-center mb-4"
+          style={{ color: 'var(--primary-orange)' }}
+        >
+          Como Trabalhamos
+        </h2>
         <Row className="timeline">
           {processes.map((process, index) => (
             <Col key={index} md={4} className="text-center mb-4">
-              <div className="process-step">
-                <span className="process-icon">{process.icon}</span>
-                <h4>{process.step}</h4>
+              <div
+                className="process-step"
+                style={{
+                  border: `2px solid var(--accent-yellow)`,
+                  padding: '20px',
+                  borderRadius: '10px',
+                }}
+              >
+                <span
+                  className="process-icon"
+                  style={{ fontSize: '40px', color: 'var(--primary-blue)' }}
+                >
+                  {process.icon}
+                </span>
+                <h4 style={{ color: 'var(--primary-orange)' }}>
+                  {process.step}
+                </h4>
                 <p>{process.description}</p>
               </div>
             </Col>

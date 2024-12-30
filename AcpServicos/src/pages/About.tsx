@@ -2,9 +2,21 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
   return (
-    <section id="about" className="py-5">
+    <section
+      id="about"
+      className="py-5"
+      style={{
+        backgroundColor: 'var(--background-black)',
+        color: 'var(--text-white)',
+      }}
+    >
       <Container fluid>
-        <h2 className="text-center mb-4">Quem Somos</h2>
+        <h2
+          className="text-center mb-4"
+          style={{ color: 'var(--primary-orange)' }}
+        >
+          Quem Somos
+        </h2>
         <Row>
           <Col md={6}>
             <p>

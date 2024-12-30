@@ -11,15 +11,21 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-orange: #ff6600;
+  --primary-blue: #1e90ff;
+  --accent-yellow: #ffd700;
+  --background-black: #000000;
+  --text-white: #ffffff;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+   color: var(--primary-orange);
+  text-decoration: none;
 }
-a:hover {
-  color: #535bf2;
+.hover-link, a:hover {
+ color: var(--primary-blue);
+  text-decoration: underline;
 }
 
 body,
@@ -28,6 +34,9 @@ html {
   padding: 0;
   width: 100%;
   height: 100%;
+  background-color: var(--background-black);
+  color: var(--text-white);
+  font-family: Arial, sans-serif;
 }
 
 /* Garantir que o conteúdo ocupe 100% da largura */
@@ -127,6 +136,7 @@ button:focus-visible {
 .timeline .process-step:hover {
   border-color: #007bff;
   background-color: #f8f9fa;
+  color: var(--primary-orange);
 }
 
 .process-icon {
@@ -134,3 +144,36 @@ button:focus-visible {
   color: #007bff;
   margin-bottom: 10px;
 }
+
+/* Links da Navbar */
+.navbar-nav .nav-link {
+  color: var(--text-white); /* Cor inicial dos links */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  transition: color 0.3s ease; /* Adiciona transição suave */
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary-blue); /* Altera a cor ao passar o mouse */
+  text-decoration: none; /* Garante que o sublinhado não apareça */
+}
+
+.navbar-nav .nav-link:focus {
+  outline: none; /* Remove o contorno azul ao focar */
+}
+
+/* Estilizar o placeholder de todos os inputs e textareas */
+input::placeholder,
+textarea::placeholder,
+.form-control::placeholder {
+  color: var(--text-white); /* Cor branca para o placeholder */
+  opacity: 1; /* Garante que a cor seja aplicada visivelmente */
+}
+
+/* Placeholder branco ao focar no campo (opcional) */
+input:focus::placeholder,
+textarea:focus::placeholder,
+.form-control:focus::placeholder {
+  color: var(--text-white); /* Branca mesmo com foco */
+  opacity: 0.7; /* Suaviza o placeholder ao focar */
+}
+
