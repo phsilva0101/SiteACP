@@ -7,19 +7,34 @@ const services = [
     description: 'Criamos projetos personalizados para sua casa.',
   },
   {
-    icon: '🔨',
-    title: 'Reformas',
-    description: 'Transformamos seu espaço com qualidade e eficiência.',
+    icon: '🏠',
+    title: 'Construção Civil',
+    description:
+      'Realizamos construções completas, desde o planejamento até a entrega das chaves, com foco em qualidade e segurança.',
   },
   {
-    icon: '🏗️',
-    title: 'Construção',
-    description: 'Realizamos obras completas do início ao fim.',
+    icon: '🔨',
+    title: 'Reformas',
+    description:
+      'Transformamos ambientes residenciais e comerciais, seja para modernização ou reparos essenciais.',
+  },
+  {
+    icon: '🔧',
+    title: 'Marido de Aluguel',
+    description:
+      'Serviços rápidos de manutenção, como elétrica, hidráulica, pintura e pequenos reparos, com preços acessíveis.',
+  },
+  {
+    icon: '🪚',
+    title: 'Bancadas em concreto armado',
+    description:
+      'Fabricamos e instalamos bancadas em concreto armado para cozinhas, banheiros e áreas de serviço.',
   },
   {
     icon: '📐',
-    title: 'Consultoria',
-    description: 'Orientação técnica para seus projetos.',
+    title: 'Consultoria Técnica',
+    description:
+      'Orientamos e acompanhamos projetos de construção e reformas para garantir eficiência e economia.',
   },
 ];
 
@@ -35,7 +50,7 @@ function Services() {
         </h2>
         <Row>
           {services.map((service, index) => (
-            <Col key={index} md={3} className="mb-4">
+            <Col key={index} md={4} className="mb-4">
               <Card
                 className="h-100 text-center"
                 style={{

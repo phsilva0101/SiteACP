@@ -20,15 +20,36 @@ function About() {
         <Row>
           <Col md={6}>
             <p>
-              Somos uma empresa comprometida com a qualidade e inovação,
-              transformando ideias em obras de excelência.
+              A <strong>ACP Serviços</strong> é uma empreiteira especializada em
+              construção, reformas, e serviços de manutenção residencial e
+              comercial. Oferecemos soluções completas e personalizadas para
+              tornar seu projeto uma realidade. Nossa equipe é composta por
+              profissionais experientes e comprometidos com a qualidade e os
+              prazos.
             </p>
           </Col>
           <Col md={6}>
             <p>
-              Nossa missão é garantir a satisfação dos nossos clientes por meio
-              de projetos bem executados e dentro do prazo.
+              Desde o planejamento arquitetônico até o acabamento final,
+              garantimos excelência em cada etapa do projeto. Também atendemos
+              pequenas necessidades do dia a dia com nosso serviço de{' '}
+              <strong>Marido de Aluguel</strong>, ideal para reparos rápidos e
+              manutenção preventiva. Trabalhamos com ética, transparência e
+              preços justos.
             </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="mt-4">
+            <ul
+              style={{ color: 'var(--primary-blue)', listStyle: 'disc inside' }}
+            >
+              <li>Construção de casas e prédios comerciais</li>
+              <li>Reformas residenciais e corporativas</li>
+              <li>Marido de aluguel: elétrica, hidráulica e reparos gerais</li>
+              <li>Consultoria e gerenciamento de obras</li>
+              <li>Projetos arquitetônicos e acompanhamento técnico</li>
+            </ul>
           </Col>
         </Row>
       </Container>
