@@ -17,7 +17,7 @@ function Footer() {
         <Row className="justify-content-center mb-3">
           <Col xs="auto">
             <a
-              href="https://www.facebook.com/seuperfil"
+              href="https://www.facebook.com/share/15j1ZMcbDo/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -29,7 +29,7 @@ function Footer() {
               <FaFacebook />
             </a>
             <a
-              href="https://www.instagram.com/seuperfil"
+              href="https://www.instagram.com/acp_servicos?igsh=MXZjYzIxN201Z3JnZw=="
               target="_blank"
               rel="noopener noreferrer"
               style={{
