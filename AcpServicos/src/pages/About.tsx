@@ -42,7 +42,10 @@ function About() {
         <Row>
           <Col md={12} className="mt-4">
             <ul
-              style={{ color: 'var(--primary-blue)', listStyle: 'disc inside' }}
+              style={{
+                color: 'var(--primary-orange)',
+                listStyle: 'disc inside',
+              }}
             >
               <li>Construção de casas e prédios comerciais</li>
               <li>Reformas residenciais e corporativas</li>

@@ -66,7 +66,11 @@ function Services() {
                   >
                     {service.icon}
                   </div>
-                  <Card.Title>{service.title}</Card.Title>
+                  <Card.Title style={{
+                    color: 'var(--primary-orange)',
+                    fontSize: '1.5rem',
+                    fontWeight: 'bold',
+                  }}>{service.title}</Card.Title>
                   <Card.Text>{service.description}</Card.Text>
                 </Card.Body>
               </Card>

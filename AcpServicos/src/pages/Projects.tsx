@@ -83,7 +83,7 @@ function Projects() {
               </div>
               <p
                 className="mt-2 text-center"
-                style={{ color: 'var(--primary-blue)', fontSize: '1rem' }}
+                style={{ color: 'var(--primary-orange)', fontSize: '1rem' }}
               >
                 {image.alt}
               </p>
